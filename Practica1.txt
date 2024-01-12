@@ -1,0 +1,12 @@
+/**
+*UPTx - Fundamentos de programaci¢n OO
+*Practica No.1		Grupo: 5H
+*Objetivo: Mi primer programa 
+*Integrantes: Cesar Eyddel Escobedo Ram¡rez, Alan Tlalpa S nchez , Miriam Mej¡a Rojas, Missael Ortiz Flores
+*Modificacion: 11/01/24
+*/
+public class Main {
+     public static void main(String[] args) {
+System.out.printf("Hola Muchachos como tan");
+}
+}
