@@ -1,0 +1,21 @@
+import POO.Carrodeltilin;
+
+public class Main {
+    public static void main(String[] args) {
+        //Instancia del los objetos
+        Carrodeltilin carro1 = new Carrodeltilin();
+        Carrodeltilin carro2 = new Carrodeltilin("VW","BMW",2002,25000);
+        Carrodeltilin carro3 = new Carrodeltilin();
+        //Mostrar los atributos del objeto
+        System.out.println("Primer carro");
+        System.out.println(carro1.getMarca());
+        System.out.println(carro1.getModelo());
+        System.out.println("Segundo carro");
+        System.out.println(carro2.getMarca());
+        System.out.println(carro2.getModelo());
+        System.out.println("Tercer carro");
+        System.out.println(carro3.getMarca());
+        System.out.println(carro3.getModelo());
+        System.out.println(Carrodeltilin.getNumCoche());
+    }
+}
