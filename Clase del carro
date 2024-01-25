@@ -1,0 +1,69 @@
+package POO;
+
+public class Carrodeltilin {
+    private String marca;
+    private String modelo;
+    private int anio;
+    private int velocidadActual;
+    private static int numCoche = 0;
+    //CONSTRUCTOR
+    public Carrodeltilin(){
+        marca = "";
+        modelo = "";
+        anio = 0;
+        velocidadActual = 0;
+        contarCarro();
+    }
+    //CONSTRUCTOR 2
+
+    public Carrodeltilin(String marca, String modelo, int anio, int velocidadActual) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.anio = anio;
+        this.velocidadActual = velocidadActual;
+        contarCarro();
+    }
+    //Metodo
+    //Al crear el coche, esta variable se pondrá a 0
+    static void contarCarro(){
+    //Incremeneta el contador de coches
+    numCoche++;
+    }
+    //Get y Set de cada atributo
+
+    public static int getNumCoche() {
+        return numCoche;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getAnio() {
+        return anio;
+    }
+
+    public void setAnio(int anio) {
+        this.anio = anio;
+    }
+
+    public int getVelocidadActual() {
+        return velocidadActual;
+    }
+
+    public void setVelocidadActual(int velocidadActual) {
+        this.velocidadActual = velocidadActual;
+    }
+}
